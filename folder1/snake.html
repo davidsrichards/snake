@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #gameContainer{
+            text-align: center;
+        }
+        #gameBoard{
+            border: 3px solid;
+
+        }
+        #reset{
+            font-family: "permanent marker", cursive;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        #scoreText{
+            font-family: "permanent marker", cursive;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    
+ <div id="gameContainer">
+    <canvas id="gameBoard" width="400" height="400"></canvas>
+    <div id="scoreText">0</div>
+    <button id="reset">Reset</button>
+
+
+ </div>
+
+ <script src="snake.js"></script>
+</body>
+</html>
